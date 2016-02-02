@@ -1,3 +1,4 @@
 #.gitignore
 individual_keys/
 archived_keys/
+config
