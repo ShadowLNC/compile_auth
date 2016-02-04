@@ -1,7 +1,10 @@
 #.gitignore
 #these are default folders/files,
 #but it is recommended to place them in the parent directory
+__pycache__/
 individual_keys/
 archived_keys/
 config
 compile_auth.cfg
+credentials
+tmp/
