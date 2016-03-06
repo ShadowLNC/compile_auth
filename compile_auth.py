@@ -4,7 +4,7 @@ os.chdir(wd)
 
 from configparser import ConfigParser
 config = ConfigParser(
-    {"authfile": "../authorised_keys", "keyfolder": "../individual_keys"})
+    {"authfile": "../authorized_keys", "keyfolder": "../individual_keys"})
 #try multiple config locations, preferred ../compile_auth.cfg
 #note all paths are relative to this file!
 config.read(["config", "compile_auth.cfg", "../compile_auth.cfg"])
